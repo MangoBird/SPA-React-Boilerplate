@@ -1,0 +1,45 @@
+#footer {
+  width: 100%;
+  border-top: 1px solid #ccc;
+
+  .footer_area {
+    overflow: hidden;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 30px 0 50px;
+
+    .footer_left {
+      float: left;
+      width: 101px;
+      margin-right: 30px;
+
+      h3,
+      img {
+        width: 100%;
+      }
+    }
+
+    .footer_right {
+      float: left;
+      width: 949px;
+      font-size: 12px;
+
+      .footer_info {
+        overflow: hidden;
+
+        li {
+          float: left;
+          margin-right: 10px;
+
+          a {
+            font-weight: 500;
+          }
+
+          &:last-child {
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+}

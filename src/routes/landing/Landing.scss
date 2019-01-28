@@ -1,0 +1,11 @@
+#landing-wrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .landing-container {
+    width: 1080px;
+    margin: 0 auto;
+    flex: 1;
+  }
+}

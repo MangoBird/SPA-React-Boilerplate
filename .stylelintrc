@@ -1,0 +1,13 @@
+{
+   "plugins": [
+    "stylelint-no-unsupported-browser-features"
+  ],
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "plugin/no-unsupported-browser-features": [true, {
+      "severity": "warning"
+    }],
+    "no-descending-specificity": null,
+    "declaration-block-trailing-semicolon": null
+  }
+}
