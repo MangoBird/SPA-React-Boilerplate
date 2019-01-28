@@ -1,13 +1,14 @@
 # SPA React Boilerplate
+React/Redux/Typescript/Sass SPA 스타터 템플릿입니다.
 
 ## Contains
 - [x] [Typescript](https://www.typescriptlang.org/) 
 - [x] [React](https://facebook.github.io/react/) 
 - [x] [Redux](https://github.com/reactjs/redux) 
-- [x] [Redux Saga](https://redux-saga.js.org/)
-- [x] [Immer](https://github.com/mweststrate/immer)
+  - [x] [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
+  - [x] [Redux Saga](https://redux-saga.js.org/)
+  - [x] [Immer](https://github.com/mweststrate/immer)
 - [x] [React Router](https://github.com/ReactTraining/react-router) 
-- [x] [Redux DevTools Extension](https://github.com/zalmoxisus/redux-devtools-extension)
 
 ### Build tools
 - [x] [Webpack](https://webpack.github.io) 4
