@@ -1,0 +1,10 @@
+// Osiria
+// {
+//   "protocol": "sftp",
+//   "host": "http://ec2-52-79-179-57.ap-northeast-2.compute.amazonaws.com",
+//   "port": 22,
+//   "username": "ec2-user",
+//   "remotePath": "/home/ec2-user/link-tracker/client",
+//   "privateKeyPath": "~/.ssh/osiria.pem",
+//   "uploadOnSave": false
+// }

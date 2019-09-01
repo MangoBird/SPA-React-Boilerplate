@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npm run clean-dist && webpack -p --config=configs/webpack/prod.js",
     "build:dev": "npm run clean-dist && webpack -p --config=configs/webpack/prod.js --watch",
-    "clean-dist": "rm -f -r -d dist",
+    "clean-dist": "rm -f -r -d client",
     "lint": "npm run lint:ts && npm run lint:sass",
     "lint:ts": "tslint './src/**/*.ts*' --format stylish --force",
     "lint:sass": "stylelint ./src/**/*.scss --fix",
@@ -82,6 +82,7 @@
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
+    "@material-ui/core": "^4.3.2",
     "axios": "^0.18.0",
     "connected-react-router": "^4.5.0",
     "history": "^4.7.2",

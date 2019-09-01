@@ -9,7 +9,7 @@ import rootReducer from './reducers';
 import rootSaga from './sagas';
 
 const sagaMiddleware = createSagaMiddleware();
-const initialState = loadState();
+const initialState = {};
 
 export default function configureStore(history: History) {
   const store = createStore(

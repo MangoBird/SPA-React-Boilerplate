@@ -1,11 +1,46 @@
+body {
+  background-color: #272727;
+}
+
 #landing-wrap {
   height: 100%;
-  display: flex;
-  flex-direction: column;
+  padding: 16px;
 
-  .landing-container {
-    width: 1080px;
-    margin: 0 auto;
-    flex: 1;
+  .slide {
+    max-width: 1200px;
+  }
+
+  section {
+    margin: 16px;
+  }
+
+  .bottom_nav {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    background-color: #fff;
+
+    .bottom_nav_area {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 700px;
+      margin: 0 auto;
+      height: 80px;
+
+      a {
+        height: 100%;
+
+        button {
+          height: 100%;
+          width: 220px;
+          border: 0;
+          border-radius: 0;
+          background-color: skyblue;
+          font-size: 20px;
+          color: #fff;
+        }
+      }
+    }
   }
 }

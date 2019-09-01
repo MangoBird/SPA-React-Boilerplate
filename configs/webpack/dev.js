@@ -28,6 +28,9 @@ module.exports = merge(commonConfig, {
     //   '/api': 'your proxy'
     // }
   },
+  output: {
+    publicPath: ''
+  },
   devtool: 'cheap-module-eval-source-map',
   plugins: [
     new webpack.HotModuleReplacementPlugin(), // enable HMR globally

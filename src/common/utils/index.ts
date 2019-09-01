@@ -4,3 +4,4 @@ export * from './Constants';
 export * from './UpdateIfNotNan';
 export * from './FloorByDecimals';
 export * from './LocalStorage';
+export * from './AcitivityLogs';
